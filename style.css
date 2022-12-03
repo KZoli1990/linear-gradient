@@ -1,0 +1,56 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+.container button{
+    background-color: rgba(0,0,0,.2);
+    color:rgba(255,255,255,.2);
+    border:1px solid black;
+    outline: inherit;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:5px;
+}
+
+.container button:hover{
+    background-color: rgba(0,0,0,.8);
+    color:rgba(255,255,255,.8);
+    cursor: pointer;
+    transition: all ease-in 0.5s;
+}
+
+.container{
+    width:100%;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorBoxes{
+    display:flex;
+}
+.box{
+    width:10px;
+    height:10px;
+    margin:5px 100px;
+    border:1px solid black;
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+
+table ,td ,th, tr{
+    border:1px solid black;
+    text-align: center;
+}
+
+table tr:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
